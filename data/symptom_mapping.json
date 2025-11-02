@@ -1,0 +1,116 @@
+{
+  "door latch failure": {
+    "guidance": "This problem could be related to 'door latch failure'. Common parts to check include the following:",
+    "parts": [
+      "PS3406971",
+      "PS10065979",
+      "PS11756150",
+      "PS11746591",
+      "PS11750057",
+      "PS12585623",
+      "PS9495545"
+    ]
+  },
+  "door won't close": {
+    "guidance": "This problem could be related to 'door won't close'. Common parts to check include the following:",
+    "parts": [
+      "PS3406971",
+      "PS10065979",
+      "PS11756150",
+      "PS11746591",
+      "PS11750057",
+      "PS9495545"
+    ]
+  },
+  "leaking": {
+    "guidance": "This problem could be related to 'leaking'. Common parts to check include the following:",
+    "parts": [
+      "PS3406971",
+      "PS10065979",
+      "PS11756150",
+      "PS12585623",
+      "PS17137081",
+      "PS8260087",
+      "PS9495545",
+      "PS734935",
+      "PS11739091"
+    ]
+  },
+  "noisy": {
+    "guidance": "This problem could be related to 'noisy'. Common parts to check include the following:",
+    "parts": [
+      "PS11746591",
+      "PS12585623",
+      "PS17137081",
+      "PS429868"
+    ]
+  },
+  "not cleaning dishes properly": {
+    "guidance": "This problem could be related to 'not cleaning dishes properly'. Common parts to check include the following:",
+    "parts": [
+      "PS11750057",
+      "PS17137081",
+      "PS8260087"
+    ]
+  },
+  "not draining": {
+    "guidance": "This problem could be related to 'not draining'. Common parts to check include the following:",
+    "parts": [
+      "PS8260087"
+    ]
+  },
+  "door won't open or close": {
+    "guidance": "This problem could be related to 'door won't open or close'. Common parts to check include the following:",
+    "parts": [
+      "PS11752778",
+      "PS734935",
+      "PS734936",
+      "PS11739119",
+      "PS429868",
+      "PS11739091",
+      "PS2358880",
+      "PS11757048"
+    ]
+  },
+  "ice maker not making ice": {
+    "guidance": "This problem could be related to 'ice maker not making ice'. Common parts to check include the following:",
+    "parts": [
+      "PS11752778",
+      "PS11701542",
+      "PS11739091"
+    ]
+  },
+  "ice maker won't dispense ice": {
+    "guidance": "This problem could be related to 'ice maker won't dispense ice'. Common parts to check include the following:",
+    "parts": [
+      "PS11752778",
+      "PS11701542"
+    ]
+  },
+  "ice maker dispenses too little ice": {
+    "guidance": "This problem could be related to 'ice maker dispenses too little ice'. Common parts to check include the following:",
+    "parts": [
+      "PS11701542"
+    ]
+  },
+  "clicking sound": {
+    "guidance": "This problem could be related to 'clicking sound'. Common parts to check include the following:",
+    "parts": [
+      "PS11739119",
+      "PS11757048"
+    ]
+  },
+  "door sweating": {
+    "guidance": "This problem could be related to 'door sweating'. Common parts to check include the following:",
+    "parts": [
+      "PS11739119",
+      "PS11757048"
+    ]
+  },
+  "touchpad does not respond": {
+    "guidance": "This problem could be related to 'touchpad does not respond'. Common parts to check include the following:",
+    "parts": [
+      "PS429868"
+    ]
+  }
+}
