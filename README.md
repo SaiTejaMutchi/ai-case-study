@@ -1,7 +1,3 @@
-Here’s your final **GitHub-ready `README.md`** in pure Markdown — you can copy-paste this directly into your repo’s root:
-
----
-
 # 🧠 Appliance Assistant (Instalily Case Study)
 
 An AI-powered **Appliance Parts Assistant** built with **FastAPI** (backend) and **React + Vite** (frontend).
