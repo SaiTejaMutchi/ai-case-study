@@ -1,0 +1,355 @@
+/* === Base Layout === */
+.page-container {
+  position: relative;
+  min-height: 100vh;
+  background: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+.scroll-banner {
+  position: sticky;
+  top: 0;
+  background: #417273;
+  color: white;
+  padding: 6px;
+  text-align: center;
+  font-size: 13px;
+  z-index: 9999;
+}
+
+.html-wrapper {
+  width: 100%;
+  height: calc(100vh - 40px);
+  border: none;
+  background: white;
+}
+
+/* === Chat Window (Responsive & Optimized) === */
+.chat-window {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  width: 420px; /* Wider for readability */
+  max-width: 90vw;
+  max-height: 75vh; /* Taller for long text */
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.25);
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transform: translateY(100%);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.35s ease-in-out;
+  font-family: "Inter", sans-serif;
+}
+
+.chat-window.open {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: all;
+}
+
+/* === Chat Header === */
+.chat-header {
+  background: #417273;
+  color: white;
+  padding: 12px 14px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 0.3px;
+  font-size: 15px;
+}
+
+.close-btn {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  transition: opacity 0.2s;
+}
+.close-btn:hover {
+  opacity: 0.7;
+}
+
+/* === Chat Body === */
+.chat-body {
+  flex: 1;
+  padding: 16px;
+  font-size: 14.5px;
+  overflow-y: auto;
+  background: #f6f9f8;
+  line-height: 1.55;
+}
+
+/* Messages */
+.msg {
+  padding: 10px 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  max-width: 100%;
+  line-height: 1.55;
+}
+
+.msg.user {
+  background: #417273;
+  color: #fff;
+  margin-left: auto;
+}
+
+.msg.bot {
+  background: #e9f1f0;
+  color: #1e3331;
+}
+
+.msg.system {
+  background: #dce9e7;
+  color: #2b5550;
+  font-weight: 500;
+  border-left: 3px solid #417273;
+}
+
+/* Scrollbar Customization */
+.chat-body::-webkit-scrollbar {
+  width: 6px;
+}
+.chat-body::-webkit-scrollbar-thumb {
+  background-color: #b1c3c1;
+  border-radius: 10px;
+}
+
+/* === Chat Input === */
+.chat-input {
+  display: flex;
+  gap: 6px;
+  border-top: 1px solid #ddd;
+  padding: 8px;
+  background: #fff;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.chat-input button {
+  background: #417273;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 7px 14px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.chat-input button:hover {
+  background: #365f60;
+  transform: translateY(-1px);
+}
+
+/* === Note Section === */
+.note {
+  font-size: 11px;
+  text-align: center;
+  color: #666;
+  padding: 5px 0 8px;
+  background: #fafafa;
+}
+
+/* === Floating Chat Bar === */
+.chat-bar {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #417273;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all 0.25s ease;
+  z-index: 10001;
+  font-size: 15px;
+}
+
+.chat-bar:hover {
+  background: #365f60;
+  transform: translateY(-2px);
+}
+
+/* === Responsive (Mobile) === */
+@media (max-width: 600px) {
+  .chat-window {
+    width: 95vw;
+    bottom: 70px;
+    right: 2.5vw;
+    max-height: 80vh;
+  }
+
+  .chat-header {
+    font-size: 14px;
+  }
+
+  .chat-input input {
+    font-size: 13px;
+  }
+
+  .chat-input button {
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+}
+
+/* === Appliance Intro Section === */
+.intro-card {
+  background: #ffffff;
+  border: 1px solid #d8e6e5;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 14px;
+  box-shadow: 0 3px 10px rgba(65, 114, 115, 0.1);
+  text-align: center;
+  animation: fadeIn 0.3s ease;
+}
+
+.intro-title {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 6px;
+  color: #234846;
+  line-height: 1.4;
+}
+
+.intro-sub {
+  font-size: 13px;
+  color: #557a77;
+  margin-bottom: 12px;
+}
+
+.appliance-pills {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.pill {
+  background: #f3f8f8;
+  color: #2b5550;
+  border: 1px solid #c3d8d6;
+  border-radius: 999px;
+  padding: 8px 18px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.pill:hover {
+  background: #e3efee;
+  border-color: #a9c5c2;
+  transform: translateY(-1px);
+}
+
+.pill.active {
+  background: #417273;
+  color: #fff;
+  border-color: #417273;
+  box-shadow: 0 2px 6px rgba(65, 114, 115, 0.2);
+}
+
+/* === Quick Actions === */
+.quick-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.qa-btn {
+  background: #e9f1f0;
+  color: #1e3331;
+  border: 1px solid #cfe1df;
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.qa-btn:hover {
+  background: #dfeceb;
+}
+
+/* === Disabled Input Styling (Visible State) === */
+.chat-input input:disabled {
+  background: #f5f8f8;
+  color: #5a7673;
+  border: 1px solid #b4c7c4;
+  opacity: 1;
+  cursor: not-allowed;
+}
+
+.chat-input input:disabled::placeholder {
+  color: #5a7673;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* === Animation for Entry === */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.pill.small:hover {
+  background: #2f5556;
+}
+
+.floating-switch {
+  position: absolute;
+  top: 10px;
+  right: 60px;
+  background: #417273;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: background 0.2s ease;
+  z-index: 9999;
+}
+
+.floating-switch:hover {
+  background: #2d5556;
+}
+.switch-options {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+.pill.small {
+  padding: 6px 10px;
+  font-size: 13px;
+}
