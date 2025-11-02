@@ -19,7 +19,6 @@ API_KEY = os.getenv("GEMINI_API_KEY")
 if not API_KEY:
     log.warning("⚠️ GEMINI_API_KEY not found in .env file. LLM calls will fail.")
     # Provide a dummy key if not found, to prevent crashes, but log errors.
-    #API_KEY = "AIzaSyAhX8S9d3rGrtHoWn7DbLMPMl_lhUrGZ4w"
 
 # --- FIX: Use the correct Gemini 2.5 Flash model ---
 MODEL_NAME = "gemini-2.5-flash-preview-09-2025"
