@@ -160,12 +160,6 @@ MIT License © 2025
 
 ---
 
-### ✅ After Setup Checklist
-
-1. Keep your `.env` private — never push it to GitHub.
-2. If you hard-coded a key in `llm_gemini.py`, remove it before committing.
-3. Commit and push safely:
-
 ```bash
 git add .
 git commit -m "Clean safe release: added setup launcher + updated README"
