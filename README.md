@@ -1,4 +1,4 @@
-# 🧠 Appliance Assistant (Instalily Case Study)
+# 🧠 Appliance Assistant (AI Case Study)
 
 An AI-powered **Appliance Parts Assistant** built with **FastAPI** (backend) and **React + Vite** (frontend).
 It helps users discover compatible appliance parts, get repair guidance, and ask context-aware questions — powered by **Google Gemini**.
