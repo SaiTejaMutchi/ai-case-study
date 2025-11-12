@@ -1,7 +1,7 @@
 # 🧠 Appliance Assistant (AI Case Study)
 
 An AI-powered **Appliance Parts Assistant** built with **FastAPI** (backend) and **React + Vite** (frontend).
-It helps users discover compatible appliance parts, get repair guidance, and ask context-aware questions — powered by **Google Gemini**.
+It helps users discover compatible appliance parts, get repair guidance, and ask context-aware questions, powered by **Google Gemini**.
 
 ---
 
@@ -51,7 +51,7 @@ cd ..
 ```
 
 > 💡 Use `backend/.env.example` as a reference.
-> 🔒 This is the **safe** method — `.env` is ignored by Git and keeps your key private.
+> 🔒 This is the **safe** method  `.env` is ignored by Git and keeps your key private.
 
 ---
 
@@ -103,7 +103,7 @@ This will automatically:
 * **Frontend (UI):** [http://localhost:5173](http://localhost:5173)
 * **Backend (API Docs):** [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
-🎉 Both servers run in separate Terminal windows — backend and frontend.
+🎉 Both servers run in separate Terminal windows  backend and frontend.
 
 ---
 
