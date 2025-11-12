@@ -75,7 +75,7 @@ and replace temporarily with:
 API_KEY = "your_real_gemini_api_key_here"
 ```
 
-> ⚠️ **Not secure** — never commit or push a hard-coded key to GitHub.
+
 
 ---
 
@@ -156,7 +156,7 @@ case-study-main-updated/
 
 ## 📄 License
 
-MIT License © 2025 Instalily
+MIT License © 2025 
 
 ---
 
