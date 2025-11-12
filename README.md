@@ -158,10 +158,4 @@ case-study-main-updated/
 
 MIT License © 2025 
 
----
 
-```bash
-git add .
-git commit -m "Clean safe release: added setup launcher + updated README"
-git push origin main
-```
