@@ -1,33 +1,10 @@
-# 🧠 Appliance Assistant (AI Case Study)
+# Appliance Assistant (AI Case Study)
 
 An AI-powered **Appliance Parts Assistant** built with **FastAPI** (backend) and **React + Vite** (frontend).
 It helps users discover compatible appliance parts, get repair guidance, and ask context-aware questions, powered by **Google Gemini**.
 
----
 
-## 🚀 Quick Start
-
-### 🧩 Requirements
-
-| Tool                   | Version                |
-| ---------------------- | ---------------------- |
-| Python                 | 3.10 +                 |
-| Node.js                | 18 +                   |
-| npm                    | bundled with Node      |
-| macOS / Linux Terminal | for running `setup.sh` |
-
----
-
-### ⚙️ 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
-```
-
----
-
-### 🔑 2️⃣ Configure the Gemini API Key
+### Configure the Gemini API Key
 
 The app requires a **Google Gemini API key** for backend LLM features.
 
@@ -50,8 +27,8 @@ Then return to the root:
 cd ..
 ```
 
-> 💡 Use `backend/.env.example` as a reference.
-> 🔒 This is the **safe** method  `.env` is ignored by Git and keeps your key private.
+>  Use `backend/.env.example` as a reference.
+>  This is the **safe** method  `.env` is ignored by Git and keeps your key private.
 
 ---
 
@@ -79,7 +56,7 @@ API_KEY = "your_real_gemini_api_key_here"
 
 ---
 
-### 🧰 3️⃣ Run the Setup Script
+###  Run the Setup Script
 
 From the project root:
 
@@ -98,16 +75,16 @@ This will automatically:
 
 ---
 
-### 💻 4️⃣ Access the App
+### Access the App
 
 * **Frontend (UI):** [http://localhost:5173](http://localhost:5173)
 * **Backend (API Docs):** [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
-🎉 Both servers run in separate Terminal windows  backend and frontend.
+Both servers run in separate Terminal windows  backend and frontend.
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 ```
 case-study-main-updated/
@@ -131,7 +108,7 @@ case-study-main-updated/
 
 ---
 
-## 🧩 Troubleshooting
+## Troubleshooting
 
 | Issue                       | Fix                                                                             |
 | --------------------------- | ------------------------------------------------------------------------------- |
@@ -142,7 +119,7 @@ case-study-main-updated/
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 
 | Layer    | Technology                        |
 | -------- | --------------------------------- |
